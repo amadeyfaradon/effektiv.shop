@@ -1,0 +1,1443 @@
+/******************************************************************************/
+.elementor-nav-menu .elementor-item {
+    text-align: center;
+}
+.jet-woo-product-thumbnail:hover {
+	-webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.elementor-lightbox .elementor-lightbox-image, .elementor-lightbox .elementor-video-container {
+background: #fff;
+}
+
+.is-form-style.is-form-style-3 input.is-search-input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+ .is-search-submit:focus,  .is-search-submit:hover,  .is-search-submit,  .is-search-icon {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.is-search-icon {
+    border-left-width: 0px;
+}
+
+#is-ajax-search-result-4115, #is-ajax-search-details-4115 {
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+#is-ajax-search-result-6247, #is-ajax-search-details-6247 {
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.is-search-input {
+    font-family: 'Montserrat' !important;
+    font-weight: 600 !important; 
+    font-size: 17px !important;
+}
+
+
+
+.pswp__img {
+	background-color: #fff !important;
+}
+
+.pswp__bg {
+    background-color: #000000 !important;
+}
+
+.lang {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+
+.lang__icon {
+  border-radius: 100px;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #9d9fa0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+  transition: .3s;
+  overflow: hidden;
+  padding: 0;
+  z-index: 10;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+}
+
+.lang__icon li a {
+  color: #9d9fa0;
+  text-transform: uppercase;
+}
+
+.lang__icon li:not(.current_lang) {
+  display: none;
+}
+
+.lang__icon.active {
+  width: 44px;
+  height: 44px;
+}
+.lang:hover .lang__icon.active {
+  width: 44px;
+  height: auto;
+}
+
+
+
+/******************************************************************************/
+/*GO TOP BUTTON*/
+.toTop {
+		z-index: 50 !important;
+}
+
+
+
+/******************************************************************************/
+/*Click pointer and hover in Gallery RUS*/
+.jet-woo-slick-control-thumbs div .attachment-large{
+	cursor: pointer;
+}
+
+.elementor-6078 .elementor-element.elementor-element-958990b .jet-woo-slick-control-thumbs__item-image:hover {
+    border-width: 1px 1px 1px 1px !important;
+    border-color: #CD1F48;
+}
+
+.jet-woo-slick-control-thumbs .slick-list .jet-woo-slick-control-thumbs__item-image{
+	cursor: pointer;
+}
+
+
+
+
+/**********************************************************************КАРТОЧКА ТОВАРОВ ИНФО ОКНО СПРАВА *********************************************************************/
+
+
+/* 1439px and below screen sizes */
+@media (max-width:1439px){
+
+	/* Paragraph */
+	.elementor-element-34d1d90 .elementor-element-f382940 .elementor-widget-heading p{
+		font-size:12px !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-34d1d90 .elementor-element-4ca6fa2 .elementor-widget-heading p{
+		font-size:12px !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-34d1d90 .elementor-element-982162f .elementor-widget-heading .elementor-heading-title{
+		font-size:12px !important;
+	}
+	
+}
+
+/* 1241px and below screen sizes */
+@media (max-width:1241px){
+
+	/* Span Tag */
+	.elementor-element-6a98dc5 .elementor-button-link .elementor-button-text{
+		font-size:12px;
+	}
+	
+	/* Division */
+	.elementor-element-8c25516 .elementor-widget-icon .elementor-widget-container{
+		padding-top:21px !important;
+	}
+	
+}
+
+/* 1200px and below screen sizes */
+@media (max-width:1200px){
+
+	/* Paragraph */
+	.elementor-element-34d1d90 .elementor-element-f382940 .elementor-widget-heading p{
+		font-size:11px !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-34d1d90 .elementor-element-982162f .elementor-widget-heading .elementor-heading-title{
+		font-size:11px !important;
+	}
+	
+	/* Span Tag */
+	.elementor-element-6a98dc5 .elementor-button-link .elementor-button-text{
+		font-size:12px;
+	}
+	
+}
+
+/******************************************************************************/
+.elementor-5639 .elementor-element.elementor-element-594ec9b .jet-woo-slick-control-thumbs__item-image:hover {
+	border-width: 1px 1px 1px 1px !important;
+    border-color: #CD1F48;
+}
+
+/*Выравнивание табов в информации о продукте (переключалки)*/
+/* Plus tab header */
+.elementor-widget-container .theplus-tabs-wrapper .theplus-tabs-nav-wrapper .nav-tab-underline li .plus-tab-header{
+	padding-left:50px !important;
+	padding-right:50px !important;
+}
+
+/* Plus tab header */
+.nav-tab-underline li .plus-tab-header{
+	left:1px;
+	min-width:307px;
+}
+
+/* 1516px and below screen sizes */
+@media (max-width:1516px){
+
+	/* Plus tab header */
+	.nav-tab-underline li .plus-tab-header{
+		
+	}
+	
+}
+
+/* 1439px and below screen sizes */
+@media (max-width:1439px){
+
+	/* Plus tab header */
+	.nav-tab-underline li .plus-tab-header{
+		min-width:0px;
+	}
+	
+}
+
+
+/***************************************************************************************************************************************************************       СТРАНИЦА "ОФОРМЛЕНИЕ ЗАКАЗА" ***************************************************************************************************************************************************************/
+
+/* Span Tag */
+#billing_buyertype_field label span{
+	display:none;
+}
+
+
+/* Label */
+code .checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_buyertype_field label{
+	font-family:'Montserrat' !important;
+}
+
+
+/* Label */
+.woocommerce-billing-fields__field-wrapper #billing_buyertype_field label{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+
+/* Label */
+#customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_buyertype_field label{
+	font-family:'Montserrat' !important;
+}
+
+
+/* Label */
+.page-content .woocommerce strong code .checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_buyertype_field .woocommerce-input-wrapper label{
+	font-family:'Montserra' !important;
+}
+
+
+/* Label */
+code .checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_buyertype_field .woocommerce-input-wrapper label{
+	font-family:'Montserrat' !important;
+	right:auto !important;
+}
+
+
+/* Division */
+#customer_details .woocommerce-billing-fields{
+	font-weight:400;
+	font-size:14px;
+}
+
+
+/* Division */
+.hentry .page-content .woocommerce strong code .checkout #customer_details .col-1 .woocommerce-billing-fields{
+	font-family:'Montserrat' !important;
+}
+
+
+/* Division */
+.row #primary #main .hentry .page-content .woocommerce strong code .checkout #customer_details .col-1 .woocommerce-billing-fields{
+	font-family:'Montserrat' !important;
+}
+
+
+/* Span Tag */
+#shipping_first_name_field label span{
+	display:none;
+}
+
+
+/* Span Tag */
+#shipping_last_name_field label span{
+	display:none;
+}
+
+
+/* Span Tag */
+#shipping_country_field label span{
+	display:none;
+}
+
+
+/* Span Tag */
+.shipping_address .address-field .optional{
+	display:none;
+}
+
+
+/* Division */
+#customer_details .woocommerce-shipping-fields{
+	font-size:14px;
+	font-weight:400;
+}
+
+
+/* Division */
+.hentry .page-content .woocommerce strong code .checkout #customer_details .col-2 .woocommerce-shipping-fields{
+	font-family:'Montserrat' !important;
+}
+
+
+/* Division */
+.row #primary #main .hentry .page-content .woocommerce strong code .checkout #customer_details .col-2 .woocommerce-shipping-fields{
+	font-family:'Montserrat' !important;
+}
+
+
+/* Input */
+#ship-to-different-address-checkbox{
+	top:12px;
+}
+
+
+/* Table Data */
+.woocommerce-checkout-review-order-table .cart-subtotal td{
+	display:none;
+}
+
+
+/* Th */
+.woocommerce-checkout-review-order-table .cart-subtotal th{
+	display:none;
+}
+
+
+/* Th */
+.woocommerce-checkout-review-order-table thead .product-total{
+	display:none;
+}
+
+
+/* Table Data */
+.woocommerce-checkout-review-order-table tbody .product-name{
+	font-weight:400;
+}
+
+
+/* Table Data */
+.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td{
+	font-weight:400 !important;
+}
+
+
+/* Table Data */
+.woocommerce-checkout-review-order-table tbody .product-total{
+	font-weight:400;
+}
+
+
+/* Label */
+.checkout #customer_details .woocommerce-input-wrapper label{
+	right:auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************************************************************************************************************            POP-UP В КОРЗИНУ ***************************************************************************************************************************************************************/
+
+/* Button */
+.yith-wacp-wrapper .yith-wacp-main .ps .popup-actions .go-checkout{
+	background-color:#cd1f4b !important;
+	background-color:#cd1f4b !important;
+}
+
+/* Button */
+.ps .popup-actions .go-checkout{
+	background-color:#cd1f4b;
+	font-weight:400;
+	left:260px;
+	background-color:#cd1f4b;
+	font-weight:400;
+	left:260px;
+}
+
+/* Button (hover) */
+.ps .popup-actions .go-checkout:hover{
+	background-color:#FBCE04;
+	font-weight:400;
+	background-color:#FBCE04;
+	font-weight:400;
+}
+
+/* Button */
+#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main .ps .popup-actions .go-checkout{
+	color:#ffffff !important;
+	color:#ffffff !important;
+}
+
+/* Division */
+.ps .info-box .cart-info{
+	display:none;
+	display:none;
+}
+
+/* Button */
+.ps .popup-actions .continue-shopping{
+	left:-217px;
+	left:-217px;
+}
+
+/* Bdi */
+.product-price .woocommerce-Price-amount bdi{
+	font-weight:400;
+	font-weight:400;
+}
+
+/* Division */
+#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+	padding-top:50px;
+}
+
+/* Thumbnail Image */
+.item-thumb a img{
+	display:inline-block;
+	max-width:134px !important;
+}
+
+/* Link */
+.single-cart-item .item-info a{
+	color:#cd1f4b;
+}
+
+/* Bdi */
+.item-price .woocommerce-Price-amount bdi{
+	font-size:14px;
+}
+
+/* Bdi */
+.item-subtotal .woocommerce-Price-amount bdi{
+	font-size:14px;
+}
+
+/* 1778px and below screen sizes */
+@media (max-width:1778px){
+
+	/* Division */
+	.yith-wacp-main .ps .popup-actions{
+		padding-top:13px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .yith-wacp-message{
+		margin-bottom:53px;
+	}
+	
+}
+
+/* 640px and below screen sizes */
+@media (max-width:640px){
+
+	/* Heading */
+	.elementor-element-a3d8277 .elementor-widget-heading h2{
+		color:#000000 !important;
+		color:#000000 !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-a3d8277 .elementor-text-editor p{
+		color:#000000;
+		color:#000000;
+	}
+	
+	/* Division */
+	.elementor-element-a3d8277 .elementor-column-wrap{
+		background-color:#ffffff;
+		background-color:#ffffff;
+	}
+	
+	/* Heading */
+	.elementor-element-fa0e5b5 .elementor-widget-heading h2{
+		color:#000000 !important;
+		color:#000000 !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-fa0e5b5 .elementor-text-editor p{
+		color:#000000;
+		color:#000000;
+	}
+	
+	/* Division */
+	.elementor-element-fa0e5b5 .elementor-column-wrap{
+		background-color:#ffffff;
+		background-color:#ffffff;
+	}
+	
+	/* Division */
+	.elementor-element-a0836a0 .elementor-column-wrap{
+		background-color:#ffffff;
+		background-color:#ffffff;
+	}
+	
+	/* Heading */
+	.elementor-element-ec29845 .elementor-widget-heading h2{
+		color:#000000 !important;
+		color:#000000 !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-ec29845 .elementor-text-editor p{
+		color:#000000;
+		color:#000000;
+	}
+	
+	/* Division */
+	.elementor-element-ec29845 .elementor-column-wrap{
+		background-color:#ffffff;
+		background-color:#ffffff;
+	}
+	
+	/* Heading */
+	.elementor-element-a0836a0 .undefined h2{
+		color:#000000 !important;
+		color:#000000 !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-a0836a0 .elementor-text-editor p{
+		color:#000000;
+		color:#000000;
+	}
+	
+	/* Division */
+	.elementor-element-02d9775 .elementor-column-wrap{
+		background-color:#ffffff;
+		background-color:#ffffff;
+	}
+	
+	/* Heading */
+	.elementor-element-77f5234 .elementor-widget-heading h2{
+		color:#000000 !important;
+		color:#000000 !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-77f5234 .elementor-text-editor p{
+		color:#000000;
+		color:#000000;
+	}
+	
+	/* Division */
+	.elementor-element-77f5234 .elementor-column-wrap{
+		background-color:#ffffff;
+		background-color:#ffffff;
+	}
+	
+	/* Heading */
+	.elementor-element-02d9775 .elementor-widget-heading h2{
+		color:#000000 !important;
+		color:#000000 !important;
+	}
+	
+	/* Paragraph */
+	.elementor-element-02d9775 .elementor-text-editor p{
+		color:#000000;
+		color:#000000;
+	}
+	
+	/* Division */
+	#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+		padding-top:24px;
+	}
+	
+}
+
+/* 604px and below screen sizes */
+@media (max-width:604px){
+
+	/* Button */
+	.ps .popup-actions .go-checkout{
+		top:-6px;
+		left:9px;
+		top:-6px;
+		left:9px;
+	}
+	
+	/* Button */
+	.ps .popup-actions .continue-shopping{
+		top:0px;
+		left:9px;
+		top:0px;
+		left:9px;
+	}
+	
+	/* Division */
+	#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+		padding-top:13px;
+	}
+	
+}
+
+/* 602px and below screen sizes */
+@media (max-width:602px){
+
+	/* Button */
+	.ps .popup-actions .go-checkout{
+		top:0px;
+		left:11px;
+		top:0px;
+		left:11px;
+	}
+	
+	/* Button */
+	.ps .popup-actions .continue-shopping{
+		top:0px;
+		left:8px;
+		top:0px;
+		left:8px;
+	}
+	
+	/* Division */
+	#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+		padding-top:13px;
+	}
+	
+}
+
+/* 599px and below screen sizes */
+@media (max-width:599px){
+
+	/* Division */
+	.yith-wacp-wrapper .yith-wacp-main .ps{
+		top:-15px;
+		top:-15px;
+	}
+	
+	/* Link */
+	.product-info .product-title a{
+		font-size:20px;
+		font-size:20px;
+	}
+	
+	/* Division */
+	#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+		padding-top:32px;
+	}
+	
+}
+
+/* 486px and below screen sizes */
+@media (max-width:486px){
+
+	/* Button */
+	.ps .popup-actions .go-checkout{
+		top:-11px;
+		left:-3px;
+		top:-11px;
+		left:-3px;
+	}
+	
+	/* Button */
+	.ps .popup-actions .continue-shopping{
+		top:0px;
+		left:-5px;
+		top:0px;
+		left:-5px;
+	}
+	
+	/* Division */
+	#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+		padding-top:25px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .cart-info{
+		top:10px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .popup-actions{
+		margin-top:0px;
+		padding-bottom:0px;
+	}
+	
+}
+
+/* 480px and below screen sizes */
+@media (max-width:480px){
+
+	/* Thumbnail Image */
+	.product-thumb a img{
+		display:inline-block;
+		width:199px !important;
+		max-width:199px !important;
+	}
+	
+	/* Button */
+	.ps .popup-actions .go-checkout{
+		padding-top:12px;
+		padding-bottom:12px;
+	}
+	
+	/* Button */
+	.ps .popup-actions .continue-shopping{
+		padding-top:12px;
+		padding-bottom:12px;
+	}
+	
+	/* Division */
+	.ps .info-box .product-info{
+		position:relative;
+		top:-25px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .popup-actions{
+		position:relative;
+		top:5px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .product-thumb{
+		position:relative;
+		top:-15px;
+		margin-bottom:12px;
+	}
+	
+}
+
+/* 479px and below screen sizes */
+@media (max-width:479px){
+
+	/* Button */
+	.ps .popup-actions .go-checkout{
+		top:-3px;
+		left:3px;
+		top:-3px;
+		left:3px;
+	}
+	
+	/* Button */
+	.ps .popup-actions .continue-shopping{
+		top:5px;
+		left:3px;
+		top:5px;
+		left:3px;
+	}
+	
+	/* Link */
+	.product-info .product-title a{
+		font-size:16px;
+		text-align:center;
+	}
+	
+	/* Thumbnail Image */
+	.product-thumb a img{
+		display:inline-block;
+		width:211px !important;
+		max-width:211px !important;
+		position:relative;
+		left:-3px;
+		top:-7px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .product-thumb{
+		position:relative;
+		top:-10px;
+		margin-bottom:3px;
+	}
+	
+	/* Division */
+	.yith-wacp-wrapper .yith-wacp-main .ps{
+		top:-19px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .yith-wacp-message{
+		margin-bottom:9px;
+	}
+	
+	/* Division */
+	.ps .info-box .product-info{
+		position:relative;
+		top:-31px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .popup-actions{
+		position:relative;
+		top:5px;
+		
+	}
+	
+}
+
+/* 420px and below screen sizes */
+@media (max-width:420px){
+
+	/* Button */
+	.ps .popup-actions .go-checkout{
+		padding-top:12px;
+		padding-bottom:12px;
+	}
+	
+	/* Button */
+	.ps .popup-actions .continue-shopping{
+		padding-top:12px;
+		padding-bottom:12px;
+		top:0px;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .yith-wacp-message{
+		position:relative;
+		top:4px;
+		margin-bottom:15px;
+		padding-top:14px;
+	}
+	
+	/* Thumbnail Image */
+	.product-thumb a img{
+		top:0px;
+	}
+	
+	/* Link */
+	.product-info .product-title a{
+		line-height:1em;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .popup-actions{
+		top:5px;
+		padding-top:11px;
+	}
+	
+	/* Division */
+	.ps .info-box .product-info{
+		top:-18px;
+		left:4px;
+	}
+	
+}
+
+/* 421px and above screen sizes */
+@media (min-width:421px){
+
+	/* Thumbnail Image */
+	.product-thumb a img{
+		position:relative;
+	}
+	
+}
+
+/* 481px and above screen sizes */
+@media (min-width:481px){
+
+	/* Division */
+	.yith-wacp-main .ps .popup-actions{
+		position:relative;
+		top:26px;
+		padding-bottom:11px;
+	}
+	
+	/* Division */
+	.ps .info-box .product-info{
+		position:relative;
+		top:26px;
+	}
+	
+	/* Table Data */
+	.cart-list tbody .item-thumb{
+		width:114px !important;
+		padding-bottom:0px !important;
+		padding-top:0px !important;
+	}
+	
+	/* Thumbnail Image */
+	.item-thumb a img{
+		width:134px !important;
+	}
+	
+	/* Table Data */
+	#yith-wacp-popup .ps tbody .item-info{
+		font-size:14px !important;
+	}
+	
+	/* Division */
+	.yith-wacp-main .ps .cart-info{
+		padding-top:3px;
+	}
+	
+}
+
+/***************************************************************************************************************************************************************      ОТБИВКА (ПОСЛЕ ОПЛАТЫ ТОВАРА) ***************************************************************************************************************************************************************/
+
+/* Division */
+#main .hentry .page-content .elementor .elementor-section-wrap .elementor-element-96a8673 .elementor-container .elementor-top-column .elementor-widget-wrap .elementor-widget-text-editor .elementor-widget-container .elementor-text-editor{
+	font-family:'Montserrat' !important;
+}
+
+/* Division */
+.elementor-top-column .elementor-widget-wrap .elementor-widget-text-editor .elementor-widget-container .elementor-text-editor .woocommerce strong code .checkout #customer_details .col-1 .woocommerce-billing-fields{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Division */
+#order_review{
+	font-family:'Montserrat', sans-serif;
+}
+
+/* Input */
+#billing_buyertype{
+	position:relative;
+	top:10px;
+}
+
+/* Division */
+.elementor-top-column .elementor-widget-wrap .elementor-widget-text-editor .elementor-widget-container .elementor-text-editor .woocommerce strong code .checkout #customer_details .col-2 .woocommerce-shipping-fields{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Input */
+#ship-to-different-address-checkbox{
+	position:relative;
+	top:9px;
+}
+
+/* Span Tag */
+#ship-to-different-address .checkbox span{
+	position:relative;
+	left:8px;
+}
+
+/* Text Area */
+#order_comments{
+	font-family:'Montserrat', sans-serif;
+}
+
+/* Label */
+#customer_details .col-2 .woocommerce-additional-fields .woocommerce-additional-fields__field-wrapper #order_comments_field label{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Division */
+.woocommerce-shipping-fields .shipping_address .woocommerce-shipping-fields__field-wrapper{
+	font-weight:500;
+}
+
+/* Division */
+#customer_details .woocommerce-billing-fields{
+	font-weight:500;
+}
+
+/* Span Tag */
+#billing_organization_field label span{
+	display:none;
+}
+
+/* Span Tag */
+#billing_juraddress_field label span{
+	display:none;
+}
+
+/* Span Tag */
+#billing_cityjur_field label span{
+	display:none;
+}
+
+/* Span Tag */
+#billing_unp_field label span{
+	display:none;
+}
+
+/* Span Tag */
+#billing_bank_field label span{
+	display:none;
+}
+
+/* Input */
+#terms{
+	position:relative;
+	top:11px;
+}
+
+/* Input */
+#payment_method_bacs{
+	position:relative;
+	top:8px;
+}
+
+/* Input */
+#payment_method_cheque{
+	position:relative;
+	top:8px;
+}
+
+/* Input */
+#payment_method_paypal{
+	position:relative;
+	top:16px;
+}
+
+/* Button */
+#place_order{
+	background-color:#cd1f4b;
+}
+
+/* Button (hover) */
+#place_order:hover{
+	background-color:#FCD102;
+}
+
+/* Paragraph */
+.elementor-text-editor code p{
+	margin-bottom:30px;
+}
+
+/* Division */
+.elementor-text-editor code .woocommerce-order{
+	font-family:'Montserrat', sans-serif;
+	font-weight:500;
+}
+
+/* Link */
+.order_item .product-name a{
+	color:#cd1f4b;
+}
+
+/* Heading */
+.woocommerce-order .woocommerce-order-details h2{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* Th */
+.woocommerce-table thead .product-name{
+	font-weight:500 !important;
+}
+
+/* Th */
+.woocommerce-table thead .product-total{
+	font-weight:500 !important;
+}
+
+/* Table Data */
+.woocommerce-table tfoot td{
+	font-weight:500 !important;
+}
+
+/* Th */
+.woocommerce-table tfoot th{
+	font-weight:500 !important;
+}
+
+/* Strong Tag */
+.order_item .product-name strong{
+	font-weight:500;
+}
+
+/* Th */
+.woocommerce-table tr:nth-child(4) th{
+	font-weight:700 !important;
+}
+
+/* Strong Tag */
+.woocommerce-thankyou-order-details .order strong{
+	font-weight:500;
+	line-height:2em !important;
+}
+
+/* Strong Tag */
+.woocommerce-thankyou-order-details .date strong{
+	font-weight:500;
+	line-height:2em !important;
+}
+
+/* Bdi */
+.total strong bdi{
+	font-weight:500;
+	line-height:2em;
+}
+
+/* Strong Tag */
+.woocommerce-thankyou-order-details .method strong{
+	font-weight:500;
+	line-height:2em !important;
+}
+
+/* List item */
+.woocommerce-order .woocommerce-thankyou-order-details .order{
+	border-right-color:#cd1f4b;
+	border-right-width:1px;
+}
+
+/* List item */
+.woocommerce-order .woocommerce-thankyou-order-details .date{
+	border-right-color:#cd1f4b;
+}
+
+/* List item */
+.woocommerce-order .woocommerce-thankyou-order-details .total{
+	border-right-color:#cd1f4b;
+}
+
+/* 510px and below screen sizes */
+@media (max-width:510px){
+
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .order{
+		margin-right:12px;
+		padding-right:14px;
+	}
+	
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .date{
+		margin-right:12px;
+		padding-right:14px;
+	}
+	
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .total{
+		margin-right:12px;
+		padding-right:14px;
+	}
+	
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .method{
+		margin-right:7px;
+		padding-right:14px;
+	}
+	
+}
+
+/* 420px and below screen sizes */
+@media (max-width:420px){
+
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .order{
+		padding-right:10px;
+		margin-right:10px;
+		font-size:10px;
+	}
+	
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .date{
+		padding-right:10px;
+		margin-right:10px;
+		font-size:10px;
+	}
+	
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .total{
+		padding-right:10px;
+		margin-right:10px;
+		font-size:10px;
+	}
+	
+	/* List item */
+	.woocommerce-order .woocommerce-thankyou-order-details .method{
+		font-size:10px;
+		position:relative;
+		top:8px;
+	}
+	
+	/* List */
+	.elementor-text-editor code ul{
+		font-size:10px;
+	}
+	
+	/* Paragraph */
+	.elementor-widget-text-editor .elementor-text-editor p{
+		margin-bottom:0px;
+	}
+	
+	/* Division */
+	.elementor-element-96a8673 .elementor-widget-wrap{
+		padding-top:0px !important;
+	}
+	
+	/* Paragraph */
+	.elementor-text-editor code p{
+		padding-bottom:30px;
+	}
+	
+}
+
+
+
+/*******************************************************************************************************************************************             КОРЗИНА  **************************************************************************************************************************************************************/
+
+/* Миниатюра продукта */
+.cart_item a img{
+	width:200px !important;
+}
+
+/* Division */
+.hentry code .cart_totals{
+	font-weight:400;
+}
+
+/* Division */
+#content .container .row #primary #main .hentry .page-content .woocommerce strong code .cart-collaterals .cart_totals{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Table Data */
+.cart tbody .product-name{
+	font-weight:500;
+}
+
+/* Table Data */
+#primary #main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart tbody .cart_item .product-name{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Th */
+.woocommerce-cart-form .cart thead tr .product-name{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Th */
+.hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-name{
+	font-family:'Montserrat' !important;
+}
+
+/* Th */
+.cart thead .product-name{
+	font-weight:500 !important;
+}
+
+/* Th */
+.cart thead .product-price{
+	font-weight:500 !important;
+}
+
+/* Th */
+.page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-price{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Th */
+#primary #main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-price{
+	font-family:'Montserrat' !important;
+}
+
+/* Th */
+.cart thead .product-quantity{
+	font-weight:500 !important;
+}
+
+/* Th */
+strong code .woocommerce-cart-form .cart thead tr .product-quantity{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Th */
+#primary #main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-quantity{
+	font-family:'Montserrat' !important;
+}
+
+/* Th */
+#main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-quantity{
+	font-family:'Montserrat' !important;
+}
+
+/* Th */
+.cart thead .product-subtotal{
+	font-weight:500 !important;
+}
+
+/* Th */
+strong code .woocommerce-cart-form .cart thead tr .product-subtotal{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Th */
+#main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-subtotal{
+	font-family:'Montserrat' !important;
+}
+
+/* Th */
+.hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart thead tr .product-subtotal{
+	font-family:'Montserrat' !important;
+}
+
+/* Table Data */
+.cart tbody .product-subtotal{
+	font-weight:500;
+}
+
+/* Table Data */
+#primary #main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart tbody .cart_item .product-subtotal{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Table Data */
+.cart tbody .product-price{
+	font-weight:500;
+}
+
+/* Table Data */
+.hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart tbody .cart_item .product-price{
+	font-family:'Montserrat' !important;
+}
+
+/* Table Data */
+strong code .woocommerce-cart-form .cart tbody .cart_item .product-price{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Table Data */
+#primary #main .hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart tbody .cart_item .product-price{
+	font-family:'Montserrat' !important;
+}
+
+/* Table Data */
+.page-content .woocommerce strong code .woocommerce-cart-form .cart tbody .cart_item .product-price{
+	font-family:'Montserrat' !important;
+}
+
+/* Input */
+.cart_item .quantity input[type=number]{
+	font-weight:500;
+	font-size:14px;
+}
+
+/* Input */
+.hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart tbody .cart_item .product-quantity .quantity input[type=number]{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Table Data */
+.hentry code tr .actions{
+	font-family:'Montserrat', sans-serif !important;
+}
+
+/* Table Data */
+.woocommerce strong code .woocommerce-cart-form .cart tbody tr .actions{
+	font-family:'Montserrat' !important;
+}
+
+/* Table Data */
+.hentry .page-content .woocommerce strong code .woocommerce-cart-form .cart tbody tr .actions{
+	font-family:'Montserrat' !important;
+}
+
+/* Обновить корзину */
+.cart tr .button{
+	font-weight:500;
+	text-transform:none;
+}
+
+.cart tr .button{
+	background-color:#cd1f4b;
+	color:#ffffff;
+}
+
+.cart tr .button:hover{
+	background-color:#FCCF04;
+	color:#1E252B;
+}
+
+
+
+/* ОФОРМИТЬ ЗАКАЗ */
+.cart_totals .wc-proceed-to-checkout a{
+	background-color:#cd1f4b !important;
+	font-weight:500;
+	
+}
+.cart_totals .wc-proceed-to-checkout a:hover{
+	background-color:#FCCF04 !important;
+	color:#1E252B !important;
+}
+
+strong code .cart-collaterals .cart_totals .wc-proceed-to-checkout a{
+	background-color:#cd1f4b !important;
+	font-weight:500;
+}
+
+strong code .cart-collaterals .cart_totals .wc-proceed-to-checkout a:hover{
+	background-color:#FCCF04 !important;
+	color:#1E252B !important;
+}
+
+
+
+
+/********************************************************************************************************          ПЛАВАЮЩАЯ КОРЗИНА ********************************************************************************************************/
+
+
+/* Division */
+#yith-wacp-mini-cart .yith-wacp-mini-cart-count{
+	background-color:#cd1f4b;
+}
+
+/* Division */
+.ps .cart-info .cart-shipping{
+	display:none;
+}
+
+/* Division */
+.yith-wacp-main .ps .cart-info{
+	position:relative;
+	top:25px;
+}
+
+/* Division */
+#yith-wacp-popup .yith-wacp-wrapper .yith-wacp-main{
+	padding-top:55px;
+	
+}
+
+figure {
+    display: none;
+}
